@@ -1,0 +1,45 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.parallelximage1{
+    background-image: url('Imagesfolder/image1.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+.textbox{
+    text-align: center;
+    text-shadow: 30px 10px 10px rgb(48, 48, 82);
+    font-weight: bold;
+    background-color: rgb(106, 105, 105);
+    border-radius: 10px;
+    display: flex;
+    left: 300px;
+    font-family: "Sevillana", cursive;
+}
+h1{
+    text-align: center;
+}
+.parallelximage2{
+    background-image: url('Imagesfolder/image2.avif');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.parallelximage3{
+        background-image: url('Imagesfolder/image3.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
