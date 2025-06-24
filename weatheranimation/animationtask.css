@@ -1,0 +1,90 @@
+
+.wraper{
+
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box; 
+  
+  background-color: black;
+  
+
+}
+.backgroundimage{
+  display: block;
+  width: 100%;
+  position: fixed;
+  /* clouds added there */
+
+}
+.cloud1{
+  position:fixed;
+  top:20px;
+  left: 40%;
+  width: 200px;
+  animation-name:moveleft; 
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal ;
+  animation-fill-mode: forwards;
+}
+.cloud2{
+  position:fixed;
+  top:20px;
+  left: 50%;
+  width: 200px;
+  animation-name:moveright; 
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal ;
+  animation-fill-mode: forwards;
+}
+/* sun is added there */
+.sunimage{
+  position:fixed;
+  width:200px;
+  top:50%;
+  left: 50%;
+  animation-name:sunmovement ;
+  animation-duration:2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction:normal;
+  animation-fill-mode:forwards ;
+
+}
+@keyframes sunmovement {
+  from{
+    top:200px;
+    opacity:0;
+    filter: brightness(-10px);
+  }
+  to{
+   top: 0px;
+   opacity:1;
+   filter: brightness(100px);
+  }
+  
+}
+@keyframes moveleft {
+  from{
+    left:40%
+
+  }
+  to{
+    left:0%;
+  }
+  
+}
+@keyframes moveright {
+  from{
+    left:50%;
+
+  }
+  to{
+    left: 100%;
+
+  }
+  
+}
