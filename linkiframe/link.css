@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0%;
+}
+
+body {
+    background-color:mediumspringgreen;
+}
+
+.container h1 {
+    text-align: center;
+    color:brown;
+}
+
+hr {
+    width: 80%;
+    height: 2px;
+    background-color:brown;
+    border: none;
+    margin: auto;
+}
+h3{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.mrgn{
+    margin-top: 20px;
+}
+.list{
+    margin-left: 160px;
+    margin-top: 10px;
+}
+.list hr{
+    position: absolute;
+    margin-top: 10px;
+    margin-left:-10px ;
+}
+.inner{
+    margin-top: 20px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.subinner{
+    margin-left: 200px;
+    font-weight: bold;
+    display: block;
+    
+}
+.text{
+    margin-top: 20px;
+}
+.frames{
+    margin-top: 10%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.lasttext h1 {
+    color: black;
+    margin-top: 20px;
+   
+}
+.container2{
+    display: flex;
+}
+.location{
+    margin-left: 80px;
+    margin-top: 60px;
+
+}
+.map{
+    margin-left: 500px;
+    margin-right: 20px;
+}
+.inner image{
+    margin-left: 10px;
+}
