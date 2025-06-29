@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .contact-section {
+            background-color: white;
+            padding: 50px 20px;
+            text-align: center;
+            color: orangered;
+        }
+
+        .contact-container {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 12px 15px;
+            border: 2px solid orangered;
+            border-radius: 8px;
+            font-size: 16px;
+            background-color: #fff;
+            color: #333;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            outline: none;
+            border-color: darkorange;
+        }
+
+        .contact-form button {
+            background-color: orangered;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: darkorange;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section class="contact-section" id="contact">
+        <div class="contact-container" data-aos="fade-up" data-aos-duration="1200">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+</body>
+
+</html>
