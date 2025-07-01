@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="discount()">CalculateGst</button>
+    <p id="amount"></p>
+    <p id="discount"></p>
+    <p id="gst:"></p>
+
+
+    <script>
+        function discount() {
+            let newamount = 0;
+            let gst = 0;
+            let amount = parseFloat(prompt("Enter amount:"));
+            document.getElementById('amount').textContent = 'amount is' + amount;
+            if (amount > 1000) {
+                newamount = amount * 10 / 100;
+                amount = amount - newamount;
+                document.getElementById('discount').textContent = 'discount is' + newamount;
+                gst = newamount * 18 / 100;
+                document.getElementById('gst').textContent = 'gst is' + gst;
+               
+            }
+
+
+
+            else if (amount >= 500 && amount <= 1000) {
+                newamount = amount * 5 / 100;
+                document.getElementById('discount').textContent = 'discount is' + newamount;
+                amount = amount - newamount;
+                gst = newamount * 18 / 100;
+                document.getElementById('gst').textContent = 'gst is' + gst;
+              
+
+            }
+
+
+
+
+            else {
+                //console.log(`No discount on ₹${amount}`);
+                document.getElementById('amount').textContent = 'no discount on:' + amount;
+            }
+
+        }
+    </script>
+</body>
+
+</html>

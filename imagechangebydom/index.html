@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="subcontainer">
+            <img src="images/tajmahalimage.webp"id="img"alt="...">
+        </div>
+        <div id="subcontainer2">
+            <img src="images/redfort.webp"onmouseover="imgchange(src)"id="img1"onmouseout="imgchangetoorignal()" alt="...">
+            <img src="images/golden-temple-aerial-600.jpg"id="img2"onmouseover="imgchange(src)"onmouseout="imgchangetoorignal()" alt="...">
+            <img src="images/durga-temple-karnataka.webp"id="img3"onmouseover="imgchange(src)"onmouseout="imgchangetoorignal()" alt="...">
+            <img src="images/R.jpeg"id="img4"onmouseover="imgchange(src)"onmouseout="imgchangetoorignal()"alt="...">
+        </div>
+    </div>
+
+    <script>
+        function imgchange(src1){
+            document.getElementById('img').src=src1
+        }
+        function imgchangetoorignal(){
+            document.getElementById('img').src="images/tajmahalimage.webp"
+            
+        }
+    </script>
+</body>
+
+</html>
