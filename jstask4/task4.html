@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS Questions</title>
+</head>
+<body>
+
+  <h2>JavaScript Function Tasks</h2>
+
+  <button onclick="discount()">Discount</button>
+  <button onclick="calculator()">Calculator</button>
+  <button onclick="bmicalculator()">BMI Calculator</button>
+  <button onclick="filter_data()">Filter Rating > 3.5</button>
+  <button onclick="map_fun()">Map Restaurant Names</button>
+
+  <script>
+    // 1. Discount Function
+    function discount() {
+      let newamount = 0;
+      let gst = 0;
+      let amount = parseFloat(prompt("Enter amount:"));
+      if (amount > 1000) {
+        newamount = amount * 10 / 100;
+        amount = amount - newamount;
+        console.log(`Discount: ₹${newamount}`);
+        gst = newamount * 18 / 100;
+        console.log(`GST: ₹${gst}`);
+      } else if (amount >= 500 && amount <= 1000) {
+        newamount = amount * 5 / 100;
+        amount = amount - newamount;
+        console.log(`Discount: ₹${newamount}`);
+        gst = newamount * 18 / 100;
+        console.log(`GST: ₹${gst}`);
+      } else {
+        console.log(`No discount on ₹${amount}`);
+      }
+      console.log(`Final amount: ₹${amount}, GST on discount: ₹${gst}`);
+    }
+
+    // 2. Calculator Function
+    function calculator() {
+      let num1 = parseFloat(prompt("Enter number1:"));
+      let num2 = parseFloat(prompt("Enter number2:"));
+      let operator = prompt("Enter operator (+, -, *, /, %):");
+
+      if (operator === '+') {
+        console.log(`${num1} + ${num2} = ${num1 + num2}`);
+      } else if (operator === '-') {
+        console.log(`${num1} - ${num2} = ${num1 - num2}`);
+      } else if (operator === '*') {
+        console.log(`${num1} * ${num2} = ${num1 * num2}`);
+      } else if (operator === '/') {
+        console.log(`${num1} / ${num2} = ${num1 / num2}`);
+      } else if (operator === '%') {
+        console.log(`${num1} % ${num2} = ${num1 % num2}`);
+      } else {
+        console.log("Invalid operator");
+      }
+    }
+
+    // 3. BMI Calculator
+    function bmicalculator() {
+      let height = parseFloat(prompt("Enter height in meters:"));
+      let weight = parseFloat(prompt("Enter weight in kg:"));
+      let bmi = weight / (height * height);
+      console.log(`BMI: ${bmi.toFixed(2)}`);
+      if (bmi < 18.5) {
+        console.log("Underweight");
+      } else if (bmi >= 18.5 && bmi < 24.9) {
+        console.log("Normal weight");
+      } else if (bmi >= 25 && bmi < 29.9) {
+        console.log("Overweight");
+      } else {
+        console.log("Obese");
+      }
+    }
+
+    // 4. Filter Function (Rating > 3.5)
+    function filter_data() {
+      let data = [
+        { name: "food bazar", rating: 4 },
+        { name: "burger king", rating: 3.5 },
+        { name: "heebee coffee", rating: 4 },
+        { name: "mcdonald", rating: 3 },
+        { name: "wendy", rating: 3 }
+      ];
+      let newarr = data.filter(el => el.rating > 3.5);
+      console.log("Filtered Restaurants (Rating > 3.5):", newarr);
+    }
+
+    // 5. Map Function (Restaurant Names Only)
+    function map_fun() {
+      let data = [
+        { name: "food bazar", rating: 4 },
+        { name: "burger king", rating: 3.5 },
+        { name: "heebee coffee", rating: 4 },
+        { name: "mcdonald", rating: 3 },
+        { name: "wendy", rating: 3 }
+      ];
+      let names = data.map(el => el.name);
+      console.log("Restaurant Names:", names);
+    }
+  </script>
+
+</body>
+</html>
