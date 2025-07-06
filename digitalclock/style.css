@@ -1,0 +1,31 @@
+.container{
+    /* background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg'); */
+    background: url('https://images.unsplash.com/photo-1587135941948-670b381f08ce?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGFqJTIwbWFoYWx8ZW58MHx8MHx8fDA%3D ') no-repeat center center/cover;
+    background-size: cover;
+    height:100vh;
+    background-attachment: fixed;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-box{
+    border: 4px solid rgb(6, 5, 5);
+    color: rgb(0, 0, 0);
+    /* background-color:black; */
+    background-color: rgba(230, 230, 230, 0.5);
+   border-radius: 10px;
+}
+#digital_clock{
+    text-align: center;
+}
+#hours{
+    text-align: center;
+}
+#seconds{
+    text-align: center;
+}
+#minutes{
+    text-align: center;
+}

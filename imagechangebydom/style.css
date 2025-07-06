@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    height: 800px;
+    background-color: rgb(9, 24, 24);
+}
+#subcontainer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: 200px;
+    
+}
+   
+
+img{
+    height: 200px;
+    
+}
+
+#subcontainer2{
+    display: flex;
+    margin-top: 80px;
+    gap: 150px; 
+    /* justify-content:space-evenly; */
+    
+}
+#subcontainer2 img{
+    width: 250px;
+}
