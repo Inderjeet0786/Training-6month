@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+
+.container {
+  border: 2px solid whitesmoke;
+  border-radius: 4px;
+  /* background-color: rgb(49, 127, 195); */
+  
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  background-color: orangered;
+  margin-top: 10px;
+  height: 30px;
+  color: aliceblue;
+  width: 80px;
+}
+
+.nav {
+  display: flex;
+  background-color: black;
+  color: azure;
+  margin-left: 30px;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  margin-left: 10px;
+
+}
+
+.searchbar {
+
+  background-color: navy;
+  width: max-content;
+  border-radius: 28px;
+  padding: 5px;
+}
+
+.searchbar input {
+  background-color: navy;
+  border: none;
+}
+.banner{
+  background-image: url('../public/images/baneerimage.jpg');
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  align-items: center;
+  overflow: hidden;
+  margin:0 ;
+  /* background-attachment: fixed; */
+}
+.boxes{
+  margin-top: 0;
+  display: flex;
+  /* padding: 20px; */
+  /* justify-content: space-around; */
+}
+.box1{
+  display: flex;
+  background-color: orangered;
+  height: 40vh;
+  width: 50vh;
+  color: azure;
+  text-align: center;
+  align-items: center;
+}
+.box2{
+  display: flex;
+  background-color:navy;
+  height: 40vh;
+  width: 50vh;
+  color: azure;
+  text-align: center;
+  align-items: center;
+}
+.box3{
+  display: flex;
+  background-color:orangered;
+  height: 40vh;
+  width: 50vh;
+  color: azure;
+  text-align: center;
+  align-items: center;
+}
+.box4{
+  display: flex;
+  background-color:navy;
+  height: 40vh;
+  width: 50vh;
+  color: azure;
+  text-align: center;
+  align-items: center;
+}
