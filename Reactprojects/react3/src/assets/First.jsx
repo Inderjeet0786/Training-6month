@@ -1,15 +1,17 @@
+import Second from "./Second"
+
 export default function First(){
     let Student = {
-        name:"deepu topa",
+        name:"Amit Kumar",
         contact:"9985586960",
-        FatherName:"",
-        MotherName:"",
+        FatherName:"Abhinav Sharma",
+        MotherName:"Anjali Kumari",
         Class:"10th"
         
     }
     return(
         <>
-        {/* <h1>{Student.name}</h1> */}
+        <Second data ={Student}/>
         </>
     )
 }
