@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <>
             <div className="container">
-                <div className="icon">
+                <div className="icon" style={{fontFamily:'Emblema One'}}>
                     CHEFER
                 </div>
                 <div className="right-side">
