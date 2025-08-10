@@ -2,6 +2,8 @@ import Third from "./Third"
 
 export default function Second(probs) {
     let student = probs.data
+    console.log("single data",student);
+    
     let Students = [
         {
             name: "Amit Kumar",
