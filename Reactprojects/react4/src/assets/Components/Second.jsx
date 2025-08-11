@@ -15,9 +15,29 @@ export default function Second(probs) {
             coverpic: 'https://mixjio.com/siteuploads/thumb/sft39/19490_6.jpg',
             pathofaudio: '../../../Music/Baatein Ye Kabhi Na Tu Bhoolna - Arijit Singh(MixJio.In).mp3',
             Singername: 'Arijit Singh',
-            description:' "Battein Ye Kabhi Na" — a heart-touching romantic song sung by Arijit Singh, featured in the movie Khamoshiyan (2015).Composed by Jeet Gannguli and written by Sayeed Quadri, it expresses the desire to never let go of someone you love, with emotions of longing, closeness, and eternal connection.'
+            description:' "Battein Ye Kabhi Na" — a heart-touching romantic song sung by Arijit Singh, featured in the movie Khamoshiyan (2015).'
 
-        }
+        },
+
+         {
+            title: 'batten yeh kabhi naa',
+            coverpic: 'https://mixjio.com/siteuploads/thumb/sft39/19490_6.jpg',
+            pathofaudio: '../../../Music/Baatein Ye Kabhi Na Tu Bhoolna - Arijit Singh(MixJio.In).mp3',
+            Singername: 'Arijit Singh',
+            description:' "Battein Ye Kabhi Na" — a heart-touching romantic song sung by Arijit Singh, featured in the movie Khamoshiyan (2015).'
+
+        },
+        
+         {
+            title: 'batten yeh kabhi naa',
+            coverpic: 'https://mixjio.com/siteuploads/thumb/sft39/19490_6.jpg',
+            pathofaudio: '../../../Music/Baatein Ye Kabhi Na Tu Bhoolna - Arijit Singh(MixJio.In).mp3',
+            Singername: 'Arijit Singh',
+            description:' "Battein Ye Kabhi Na" — a heart-touching romantic song sung by Arijit Singh, featured in the movie Khamoshiyan (2015).'
+
+        },
+        
+
     ]
 
     const arr = probs.data
