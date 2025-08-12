@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
         <>
-        <div className="container-fluid border border-primary">
+        {/* <div className="container-fluid border border-primary">
             <div className="container">
                 <div className="row">
                 <div className="col col-md-4 col-12  col-sm-12">
@@ -21,24 +21,24 @@ export default function Footer(){
                 <div className="col col-md-2">
                     <h4>Useful Links</h4>
                     <li className="list-unstyled">
-                        <a href="" className="text-decoration-none text-dark me-2">Home</a>
+                        <a href="" className="text-decoration-none text-dark me-2" style={{fontSize:'14px',lineHeight:'14px'}} >Home</a>
                     </li>
 
                     <li className="list-unstyled">
-                        <a href="" className="text-decoration-none text-dark">About Us</a>
+                        <a href="" className="text-decoration-none text-dark" style={{fontSize:'14px',lineHeight:'14px'}} >About Us</a>
                     </li>
                     
 
                     <li className="list-unstyled">
-                        <a href="" className="text-decoration-none text-dark">Services</a>
+                        <a href="" className="text-decoration-none text-dark" style={{fontSize:'14px',lineHeight:'14px'}} >Services</a>
                     </li>
 
                     <li className="list-unstyled">
-                        <a href="" className="text-decoration-none text-dark">Terms of Services </a>
+                        <a href="" className="text-decoration-none text-dark" style={{fontSize:'14px',lineHeight:'14px'}} >Terms of Services </a>
                     </li>
 
                     <li className="list-unstyled">
-                        <a href="" className="text-decoration-none text-dark">Privacy policy </a>
+                        <a href="" className="text-decoration-none text-dark" style={{fontSize:'14px',lineHeight:'14px'}} >Privacy policy </a>
                     </li>
 
 
@@ -46,36 +46,71 @@ export default function Footer(){
                 </div>
 
 
-                <div className="col">
-                    <h4>Useful Links</h4>
+                <div className="col col-md-2">
+                    <h4>Our Services</h4>
                     <li className="list-unstyled">
-                        <a href="" className="text-decoration-none text-dark me-2">Home</a>
+                        <a href="" className="text-decoration-none text-dark me-2"style={{fontSize:'14px',lineHeight:'14px'}} >Home</a>
                     </li>
 
                     <li className="list-unstyled">
-                        <a href="" className="text-decoration-none text-dark">About Us</a>
+                        <a href="" className="text-decoration-none text-dark"style={{fontSize:'14px',lineHeight:'14px'}} >Web Design</a>
                     </li>
                     
 
                     <li className="list-unstyled">
-                        <a href="" className="text-decoration-none text-dark">Services</a>
+                        <a href="" className="text-decoration-none text-dark"style={{fontSize:'14px',lineHeight:'14px'}} >Web Devlopment</a>
                     </li>
 
                     <li className="list-unstyled">
-                        <a href="" className="text-decoration-none text-dark">Terms of Services </a>
+                        <a href="" className="text-decoration-none text-dark"style={{fontSize:'14px',lineHeight:'14px'}} >Product Managment </a>
                     </li>
 
                     <li className="list-unstyled">
-                        <a href="" className="text-decoration-none text-dark">Privacy policy </a>
+                        <a href="" className="text-decoration-none text-dark"style={{fontSize:'14px',lineHeight:'14px'}} >Marketing </a>
                     </li>
 
+                    <li className="list-unstyled">
+                        <a href="" className="text-decoration-none text-dark"style={{fontSize:'14px',lineHeight:'14px'}} >Graphic Design</a>
+                    </li>
 
+                   
+
+                </div>
+
+                <div className="col col-md-2">
+                    <h4>Hic soultasetup</h4>
+                    <li className="list-unstyled">
+                        <a href="" className="text-decoration-none text-dark me-2"style={{fontSize:'14px',lineHeight:'14px'}}  >Molestiae accusamus iure</a>
+                    </li>
+
+                    <li className="list-unstyled">
+                        <a href="" className="text-decoration-none text-dark" style={{fontSize:'14px',lineHeight:'14px'}} >Web Design</a>
+                    </li>
+                    
+
+                    <li className="list-unstyled">
+                        <a href="" className="text-decoration-none text-dark"style={{fontSize:'14px',lineHeight:'14px'}} >Web Devlopment</a>
+                    </li>
+
+                    <li className="list-unstyled">
+                        <a href="" className="text-decoration-none text-dark"style={{fontSize:'14px',lineHeight:'14px'}} >Product Managment </a>
+                    </li>
+
+                    <li className="list-unstyled">
+                        <a href="" className="text-decoration-none text-dark"style={{fontSize:'14px',lineHeight:'14px'}} >Marketing </a>
+                    </li>
+
+                    <li className="list-unstyled">
+                        <a href="" className="text-decoration-none text-dark"style={{fontSize:'14px',lineHeight:'14px'}} >Graphic Design</a>
+                    </li>
+
+                   
 
                 </div>
             </div>
             </div>
             
-        </div>
+        </div> */}
         </>
     )
 }

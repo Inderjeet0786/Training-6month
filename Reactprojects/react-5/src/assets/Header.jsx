@@ -1,81 +1,86 @@
 export default function Header() {
     return (
         <>
-            <div className="container-fluid" style={{ backgroundColor: 'rgb(38, 136, 182)' }}>
-                <div className="container ">
+
+            <div className="container-fluid" style={{ backgroundColor: 'rgb(38, 136, 182)', overflowWrap: 'break-word' }}>
+                <div className="container">
                     <div className="row">
-                        <div className="col col-sm-6" style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+                        <div className=" col col-12 col-md-10  ">
                             <i className="bi bi-envelope text-white"></i>
-                            <a className="text-light" href="" style={{textDecoration:'none'}}>contact@example.com</a>
+                            <a
+                                className="text-white mx-2"
+                                href=""
+                                style={{ textDecoration: 'none' }}
+                            >
+                                contact@example.com
+                            </a>
 
-                            <i className="bi bi-phone text-white"></i>
-
+                            <i className="bi bi-phone text-white mx-2"></i>
                             <span className="text-white">+91 9056789447</span>
                         </div>
+
+                        <div className="col col-12 col-md 6  d-flex flex-wrap " style={{ gap: '10px' }}>
+                            <i className="bi bi-twitter-x text-white"></i>
+                            <i className="bi bi-facebook text-white"></i>
+                            <i className="bi bi-instagram text-white"></i>
+                            <i className="bi bi-linkedin text-white"></i>
+                        </div>
                     </div>
                 </div>
             </div>
+
 
             <div className="container-fluid">
-                <div className="container" style={{ marginTop: '30px', fontFamily: 'Poppins,sans-serif', }}>
-                    <div className="row" style={{ display: 'flex' }}>
-                        <div className="col col-4"> <h1>Medilab</h1></div>
-
-                        <div className="col col-8 ">
-                            <nav className="navbar navbar-expand-lg ">
-                                <div className="container-fluid">
-
-                                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                                        <span className="navbar-toggler-icon" />
-                                    </button>
-                                    <div className="collapse navbar-collapse" id="navbarScroll">
-                                        <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" >
-                                            <li className="nav-item">
-                                                <a className="nav-link active" aria-current="page" href="#">Home</a>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a className="nav-link" href="#">About</a>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <a className="nav-link" href="#">Services</a>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <a className="nav-link" href="#">Departmenst</a>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a className="nav-link" href="#">Doctors</a>
-                                            </li>
-                                            <li className="nav-item dropdown">
-                                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    Dropdown
-                                                </a>
-                                                <ul className="dropdown-menu">
-                                                    <li><a className="dropdown-item" href="#">Dropdown1</a></li>
-                                                    <li><a className="dropdown-item" href="#">Another action</a></li>
-
-                                                    <li><a className="dropdown-item" href="#">Dropdown3</a></li>
-                                                </ul>
-                                            </li>
-                                            <li className="nav-item">
-                                                <a className="nav-link" href="#">Contacts</a>
-                                            </li>
-
-                                        </ul>
-
-                                        <a className="btn btn-outline-light rounded-pill bg-primary" type="submit">Make An Appointment</a>
-
-                                    </div>
-                                </div>
-                            </nav>
+                <div className="container">
+                    <div className="row">
+                        <div className="col col-md-2 d-flex ">
+                            <h1 className="" style={{ color: 'RGB(44,73,100)' }}>Medilab</h1>
                         </div>
 
+                        <div className="col d-flex " style={{ gap: '20px',justifyContent:'center',alignItems:'center' }}>
+                            <li className="list-unstyled">
+                                <a href="" className="text-decoration-none text-dark" >Home</a>
+                            </li>
+
+                            <li className="list-unstyled">
+                                 <a href="" className="text-decoration-none text-dark">About</a>
+                            </li>
+
+                            <li className="list-unstyled">
+                                 <a href="" className="text-decoration-none text-dark">Services</a>
+                            </li>
+
+                            <li className="list-unstyled">
+                                 <a href="" className="text-decoration-none text-dark">Departments</a>
+                            </li>
+
+                            <li className="list-unstyled">
+                                 <a href="" className="text-decoration-none text-dark">Doctors</a>
+                            </li>
+
+                            <select name="" id="" className="border-0 text-dark">
+                                <option value="">Dropdown </option>
+                                <option value="">Dropdown 1</option>
+                                <option value="">Dropdown 2</option>
+                                <option value="">Dropdown 3</option>
+                            </select>
+
+                            <li className="list-unstyled">
+                                 <a href="" className="text-decoration-none text-dark">Contact</a>
+                            </li>
+                           
+                           <li className="list-unstyled">
+                               <button className="btn btn-outline-primary rounded-pill" style={{color:'white',backgroundColor:'RGB(43,73,100)'}}>Make an Appointment</button>
+                           </li>
+
+                        </div>
 
                     </div>
-
                 </div>
             </div>
+
+
+
         </>
     )
 }
