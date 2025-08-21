@@ -1,20 +1,20 @@
 export default function Footer(){
     return(
         <>
-        {/* <div className="container-fluid border border-primary">
+        <div className="container-fluid "style={{width:'100%',padding:'3px', marginTop:'30px'}}>
             <div className="container">
                 <div className="row">
                 <div className="col col-md-4 col-12  col-sm-12">
                     <a href=""className="text-decoration-none">
-                        <span className=" fs-4 text-dark">Medilab</span>
+                        <span className=" text-dark" style={{fontSize:'14px',lineHeight:'14px'}}>Medilab</span>
                     </a>
                     <br />
-                    <p>A108 Adam Street</p>
-                    <p>New York Ny 535022</p>
+                    <p style={{fontSize:'14px',lineHeight:'14px'}}>A108 Adam Street</p>
+                    <p style={{fontSize:'14px',lineHeight:'14px'}}>New York Ny 535022</p>
                    
-                    <p> <strong>Phone:</strong>
+                    <p style={{fontSize:'14px',lineHeight:'14px'}}> <strong>Phone:</strong>
                     +91 9056789447</p>
-                    <p> <strong>Email:</strong> 
+                    <p style={{fontSize:'14px',lineHeight:'14px'}}> <strong>Email:</strong> 
                     info@example.com</p>
                 </div>
 
@@ -110,7 +110,7 @@ export default function Footer(){
             </div>
             </div>
             
-        </div> */}
+        </div>
         </>
     )
 }
