@@ -148,7 +148,7 @@ function Employe() {
 
       {employees.map(el=>{
         return(
-          <tr>
+          <tr key ={ el.id}>
             <td>{el.empid}</td>
             <td>{el.name}</td>
             <td>{el.job}</td>
