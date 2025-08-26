@@ -8,6 +8,7 @@ function Login() {
     const [gender, setGender] = useState()
     const [submitted, setSubmitted] = useState(false)
     const [course,setCourse] = useState('')
+    const [contact,setContact] = useState('')
 
 
     return (
@@ -29,6 +30,16 @@ function Login() {
 
                                         setName(e.target.value)
                                     }} />
+                            </div>
+
+                            <div className="mb-4 d-flex">
+                                <label htmlFor="number" className="form-label mx-2">Contact:</label>
+                                <input type="tel" className="form-control mx-2"
+                                required
+                                value={contact}
+                                onChange={(e)=>{
+                                    setContact(e.target.value)
+                                }} />
                             </div>
 
                             <div className="mb-4 d-flex">
@@ -106,6 +117,7 @@ function Login() {
                 {submitted ?
                     <div className="mb-5 bg-dark text-light border border-dark col-md-6 my-4 text-center mt-3">
                         <h3>Name:{name}</h3>
+                        <h3>Contact:{contact}</h3>
                         <h3>Email:{email}</h3>
                         <h3>Password:{password}</h3>
                         <h3>Gender:{gender}</h3>
