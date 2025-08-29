@@ -7,22 +7,26 @@ function Login() {
     const [password,setPassword] = useState('')
     const formhandle = (e)=>{
         e.preventDefault()
-        const email = sessionStorage.getItem('email')
-        const code = sessionStorage.getItem('password')
-        console.log(email);
-        console.log(code);
+        console.log("hello");
+        toast("hello")
         
-        if(mail===email){
-            toast.success('Login Successful')
+        // const email = sessionStorage.getItem('email')
+        // const code = sessionStorage.getItem('password')
+        // console.log(email);
+        // console.log(code);
+        
+        // if(mail == "admin@gmail.com"){
+        //     toast('Login Successful')
 
-        }
+        // }
     }
     return (
         <>
             <div className="container-fluid">
-                <ToastContainer/>
+                {/* <ToastContainer/> */}
                 <div className="row">
                     <div className="col-md-6 my-4">
+                <ToastContainer/>
                         <form action="" className="offset-md-6 shadow p-4"
                         onClick={formhandle}>
                             <div className="mb-6 d-flex my-4">
