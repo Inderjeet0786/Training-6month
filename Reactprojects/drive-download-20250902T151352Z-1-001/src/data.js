@@ -1,0 +1,125 @@
+let items = {
+  "items": {
+    "item": [
+      {
+        "id": "0001",
+        "type": "donut",
+        "name": "Cake",
+        "ppu": 0.55,
+        "image":"donutImage.jpg",
+        "batters": {
+          "batter": [
+            { "id": "1001", "type": "Regular" },
+            { "id": "1002", "type": "Chocolate" },
+            { "id": "1003", "type": "Blueberry" },
+            { "id": "1004", "type": "Devil's Food" }
+          ]
+        },
+        "topping": [
+          { "id": "5001", "type": "None" },
+          { "id": "5002", "type": "Glazed" },
+          { "id": "5005", "type": "Sugar" },
+          { "id": "5007", "type": "Powdered Sugar" },
+          { "id": "5006", "type": "Chocolate with Sprinkles" },
+          { "id": "5003", "type": "Chocolate" },
+          { "id": "5004", "type": "Maple" }
+        ]
+      },
+      {
+        "id": "0002",
+        "type": "donut",
+        "name": "Raised",
+        "ppu": 0.69,
+        "image":"donutImage.jpg",
+
+        "batters": {
+          "batter": [
+            { "id": "2001", "type": "Regular" }
+          ]
+        },
+        "topping": [
+          { "id": "6001", "type": "Glazed" },
+          { "id": "6002", "type": "Sugar" },
+          { "id": "6003", "type": "Chocolate" },
+          { "id": "6004", "type": "Maple" }
+        ]
+      },
+      {
+        "id": "0003",
+        "type": "donut",
+        "name": "Old Fashioned",
+        "ppu": 0.75,
+        "image":"image.jpg",
+
+        "batters": {
+          "batter": [
+            { "id": "3001", "type": "Regular" },
+            { "id": "3002", "type": "Chocolate" }
+          ]
+        },
+        "topping": [
+          { "id": "7001", "type": "None" },
+          { "id": "7002", "type": "Glazed" },
+          { "id": "7003", "type": "Chocolate" },
+          { "id": "7004", "type": "Maple" },
+          { "id": "7005", "type": "Strawberry" }
+        ]
+      },
+      {
+        "id": "0004",
+        "type": "muffin",
+        "name": "Blueberry Muffin",
+        "image":"image.jpg",
+
+        "ppu": 1.25,
+        "batters": {
+          "batter": [
+            { "id": "4001", "type": "Blueberry" },
+            { "id": "4002", "type": "Regular" }
+          ]
+        },
+        "topping": [
+          { "id": "8001", "type": "Sugar Crystals" },
+          { "id": "8002", "type": "Powdered Sugar" }
+        ]
+      },
+      {
+        "id": "0005",
+        "type": "cake",
+        "name": "Chocolate Lava Cake",
+        "ppu": 2.5,
+        "image":"image.jpg",
+
+        "batters": {
+          "batter": [
+            { "id": "5001", "type": "Chocolate" },
+            { "id": "5002", "type": "Fudge" }
+          ]
+        },
+        "topping": [
+          { "id": "9001", "type": "Hot Fudge" },
+          { "id": "9002", "type": "Whipped Cream" },
+          { "id": "9003", "type": "Chocolate Chips" }
+        ]
+      },
+      {
+        "id": "0006",
+        "type": "pastry",
+        "name": "Croissant",
+        "ppu": 1.75,
+        "image":"image.jpg",
+
+        "batters": {
+          "batter": [
+            { "id": "6001", "type": "Butter" }
+          ]
+        },
+        "topping": [
+          { "id": "10001", "type": "None" },
+          { "id": "10002", "type": "Almond" },
+          { "id": "10003", "type": "Chocolate Drizzle" }
+        ]
+      }
+    ]
+  }
+}
