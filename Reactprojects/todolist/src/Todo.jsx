@@ -11,7 +11,7 @@ function Todo() {
     setTaskValue(value)
   }
   
-  updateTask()
+  
 
 
   return (
@@ -36,8 +36,8 @@ function Todo() {
         {tasks.map((t, index) => (
             <div style={{padding:'30px', display:'flex',gap:'10px'}}>
             <input key={index} style={{width:'150px'}} value={t}/>
-            <button onClick={updatevalue}>Update</button>
-            <button>Toggle</button>
+            <button onClick={updatevalue(t,index)}>Update</button>
+            {/* <button  onClick={updateTask(t,index)}>Toggle</button> */}
             </div>
           
         ))}
